@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: lightblue;
+    min-height: 300px;
+    height: 100vh;
+}
+.main1 {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    border: 1px solid b;
+}
+.row1,{
+    width:250px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    flex: 1;
+    border: 1px solid #fff;
+}
+img {
+    width: 300px;
+    border-radius: 25px;
+    margin: 20px;
+    border: 1px solid #fff;
+}
